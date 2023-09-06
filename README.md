@@ -1,0 +1,2 @@
+# ZhaJi
+Share your mind
