@@ -1,7 +1,7 @@
 import { Input, Form, Select, List } from 'antd'
 import { options } from '../utils/selectTags'
 import { useState, useContext, useEffect } from 'react'
-import viteLogo from '/vite.svg'
+import zhajiLogo from '/logo.png'
 import NoteCard from './NoteCard'
 import { NoteContext } from '../contexts'
 
@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div>
       <h1>Discover</h1>
-      <img src={viteLogo} className="logo" alt="Vite logo" />
+      <img src={zhajiLogo} className="logo" alt="Vite logo" />
       <Form form={form} onValuesChange={onValuesChange}>
         <Form.Item name='search'>
           <Search style={{ width: 400 }} enterButton placeholder="search" />

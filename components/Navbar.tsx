@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react'
-import viteLogo from '/vite.svg'
+import zhajiLogo from '/logo.png'
 import { Avatar, Button, Space } from 'antd'
 import { AuthContext } from '../contexts'
 import tree from '/tree.jpg'
@@ -17,8 +17,8 @@ const Navbar = () => {
     <header>
       <nav style={{display: 'flex', justifyContent: 'space-between', width: '95vw'}}>
         <a href='/'>
-          <img src={viteLogo} alt="Vite logo" />
-          <span>Vite</span>
+        <img className='logo' src={logo} alt="Vite logo" style={{width: 32, height: 32, padding: 0}}/>
+          <span>ZhaJi</span>
         </a>
         <Space>
           <Button onClick={() => {setTheme(t => !t)}} shape='circle'>{theme ? '🔆' : '🌙'}</Button>
