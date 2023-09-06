@@ -1,3 +1,3 @@
 # ZhaJi
 Share your mind
-[demo](demo/demo.png)
+![demo](demo/demo.png)
